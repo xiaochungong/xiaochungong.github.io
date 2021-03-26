@@ -1,0 +1,12 @@
+Set1:========= for main page: index.html
+banner:568*191 [3:1]
+pic01-pic05:262*110 [2.36]
+pic06-pic08:70*70 [1:1]
+
+$$$$$$$$$$$$$$$$$$$$$$$
+chirppedxuv.png:643*429 [3:2]
+
+
+
+%%%%%%%%%%
+main pape figure 3:1=1200*400
