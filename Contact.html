@@ -16,6 +16,29 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="subpage">
+	<script type="text/javascript"> 
+	function password() { 
+	var testV = 1; 
+	var pass1 = prompt('Password is needed. If necessary, please send email to xiaochun.',''); 
+	while (testV < 3) { 
+	if (!pass1) 
+	history.go(-1); 
+	if (pass1 == "299792458") {//初始密码123 
+	alert('Well done!'); 
+	break; 
+	} 
+	testV+=1; 
+	var pass1 = 
+	prompt('Wow, so sad.'); 
+	} 
+	if (pass1!="password" & testV ==2) 
+	history.go(-1); 
+	return " "; 
+	} 
+	document.write(password()); 
+	</script> 
+				 
+				 
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -41,6 +64,7 @@
 						</div>
 					</div>
 				</section>
+			
 
 			<!-- Content -->
 				<section id="content">
